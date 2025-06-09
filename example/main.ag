@@ -1,0 +1,10 @@
+{
+	port = 6767,
+	routes = [
+       {
+          path = "/",
+          method = "get",
+          handle = () => "Hello world!";
+       }
+    ]
+}
